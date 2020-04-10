@@ -1,0 +1,49 @@
+ACL			// 访问权限
+Institutions		// 机构
+algVer			// 解析算法版本
+avgO2			// 平均血氧
+avgPr			// 平均心率
+createdAt		// 创建时间
+dataType		// 报告类型, 0陶瓷戒指睡眠报告, 1新戒指睡眠报告, 2运动报告
+deepMinutes		// 深睡时长
+deleted			// 在客户端标记为删除
+downIndex		// 氧减指数
+downTimes		// 氧减次数
+duration		// 监测时长
+endAt			// 监测结束时间
+errorTips		// 解析算法抛出的错误信息
+handOnDuration		// 上手时长
+handoffArr		// 离手起止时间(距开始时间的偏移)数组, [[离手开始, 离手结束], [离手开始, 离手结束], [离手开始, 离手结束]]
+lightMinutes		// 浅睡时长
+maxDownDuration		// 最长氧减时间
+maxO2			// 最大血氧
+maxPr			// 最大心率
+minO2			// 最小血氧
+minPr			// 最小心率
+o2Arr			// 血氧数组
+objectId		// id
+offhandMinutes		// 离手时长
+platform		// 生成报告的终端类型(iOS, Android)
+prArr			// 心率数组
+remMinutes		// 眼动时长
+remoteDevice		// 生成报告的设备信息
+ringData		// 报告原始数据(二进制转base64)
+secondsUnder60		// 血氧饱和度低于60%的秒数
+secondsUnder70		// 血氧饱和度低于70%的秒数
+secondsUnder80		// 血氧饱和度低于80%的秒数
+secondsUnder85		// 血氧饱和度低于85%的秒数
+secondsUnder90		// 血氧饱和度低于90%的秒数
+secondsUnder95		// 血氧饱和度低于95%的秒数
+shareUnder60		// 血氧饱和度低于60%的时长占比
+shareUnder70		// 血氧饱和度低于70%的时长占比
+shareUnder80		// 血氧饱和度低于80%的时长占比
+shareUnder85		// 血氧饱和度低于85%的时长占比
+shareUnder90		// 血氧饱和度低于90%的时长占比
+shareUnder95		// 血氧饱和度低于95%的时长占比
+stageArr		// 分期数组, 0清醒, 2眼动, 3浅睡, 4深睡, 6无人
+startAt			// 监测开始时间
+stopType		// 监测停止类型, 0正常, 1超时, 2复位, 3存储空间不足, 4低电, 5充电, 6闪存错误
+updatedAt		// 更新时间
+userId			// objectId in _User
+userInfoPointer		// Patients
+wakeMinutes		// 清醒时长
